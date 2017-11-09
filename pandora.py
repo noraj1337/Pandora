@@ -7,7 +7,7 @@ import json
 folder = 'output/'
 
 if len(sys.argv) != 2:
-    print 'Usage: ./pandora testgraph.mtgz'
+    print 'Usage: ./pandora testgraph.mtgx'
     sys.exit(1)
 
 g = sys.argv[1]
